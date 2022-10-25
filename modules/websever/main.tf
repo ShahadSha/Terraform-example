@@ -93,6 +93,7 @@ resource "aws_instance" "test-instance" {
     }
 }
 
+
 #ec2 instance private
 resource "aws_instance" "test-instance-private" {
     ami = data.aws_ami.latest-amazon-image.id

@@ -33,7 +33,6 @@ module "test-subnet" {
 module "test-server" {
     source = "./modules/websever"
     vpc_id = aws_vpc.test-vpc.id
-    my_ip = var.my_ip
     env_prefix = var.env_prefix
     public_key_location = var.public_key_location
     private_key_location = var.private_key_location

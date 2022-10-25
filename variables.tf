@@ -3,7 +3,6 @@ variable subnet_cidr_block_private {}
 variable subnet_cidr_block_public {}
 variable avail_zone {}
 variable env_prefix {}
-variable my_ip {}
 variable instance_type {}
 variable public_key_location {}
 variable private_key_location {}
